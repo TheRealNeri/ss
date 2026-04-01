@@ -1,0 +1,18 @@
+import { Place } from "@/lib/types/model";
+
+export const places: Place[] = [
+  { id: "tirana", name: { sq: "Tiranë", en: "Tirana" }, type: "city", coordinates: [19.8187, 41.3274], preferredStationId: "sheshi-skenderbej", aliases: ["tirane", "tirana center", "tirana qender"], municipality: { sq: "Tiranë", en: "Tirana" } },
+  { id: "sheshi-skenderbej-place", name: { sq: "Sheshi Skënderbej", en: "Skanderbeg Square" }, type: "landmark", coordinates: [19.8188, 41.3274], preferredStationId: "sheshi-skenderbej", aliases: ["skenderbej", "skanderbeg square", "skanderbeg"], municipality: { sq: "Tiranë", en: "Tirana" } },
+  { id: "blloku-place", name: { sq: "Blloku", en: "Blloku" }, type: "district", coordinates: [19.8151, 41.3197], preferredStationId: "blloku", aliases: ["bllok", "ish blloku"], municipality: { sq: "Tiranë", en: "Tirana" } },
+  { id: "durres", name: { sq: "Durrës", en: "Durrës" }, type: "city", coordinates: [19.444, 41.3242], preferredStationId: "durres-qender", aliases: ["durres qender", "durres center", "durrës qendër"], municipality: { sq: "Durrës", en: "Durrës" } },
+  { id: "porti-i-durresit-place", name: { sq: "Porti i Durrësit", en: "Port of Durrës" }, type: "port", coordinates: [19.4462, 41.3132], preferredStationId: "porti-durresit", aliases: ["durres port", "porti i durresit", "port of durres"], municipality: { sq: "Durrës", en: "Durrës" } },
+  { id: "rinas-place", name: { sq: "Aeroporti Rinas", en: "Rinas Airport" }, type: "airport", coordinates: [19.7206, 41.4147], preferredStationId: "rinas-airport", aliases: ["tirana airport", "tia", "rinas airport", "airport"], municipality: { sq: "Tiranë", en: "Tirana" } },
+  { id: "prishtina", name: { sq: "Prishtinë", en: "Prishtina" }, type: "city", coordinates: [21.1655, 42.6633], preferredStationId: "prishtina-qender", aliases: ["pristina", "prishtine", "prishtina center"], municipality: { sq: "Prishtinë", en: "Prishtina" } },
+  { id: "prishtina-airport-place", name: { sq: "Aeroporti Prishtinë", en: "Prishtina Airport" }, type: "airport", coordinates: [21.0348, 42.5703], preferredStationId: "prishtina-airport", aliases: ["prn", "adem jashari airport", "pristina airport", "prishtina airport"], municipality: { sq: "Prishtinë", en: "Prishtina" } },
+  { id: "sarande", name: { sq: "Sarandë", en: "Sarandë" }, type: "city", coordinates: [20.005, 39.8752], preferredStationId: "sarande-qender", aliases: ["saranda", "sarande center", "sarandë qendër"], municipality: { sq: "Sarandë", en: "Sarandë" } },
+  { id: "ksamil-beach", name: { sq: "Ksamil", en: "Ksamil" }, type: "beach", coordinates: [20.0007, 39.7699], preferredStationId: "ksamil", aliases: ["ksamil beach", "beach ksamil"], municipality: { sq: "Ksamil", en: "Ksamil" } },
+  { id: "butrint-park", name: { sq: "Butrint", en: "Butrint" }, type: "landmark", coordinates: [20.0209, 39.7462], preferredStationId: "butrint", aliases: ["butrint park", "butrinti"], municipality: { sq: "Ksamil", en: "Ksamil" } },
+  { id: "kamez-place", name: { sq: "Kamëz", en: "Kamëz" }, type: "district", coordinates: [19.7607, 41.3827], preferredStationId: "kamez", aliases: ["kamez", "kamëz"], municipality: { sq: "Kamëz", en: "Kamëz" } },
+  { id: "shkoder-place", name: { sq: "Shkodër", en: "Shkodër" }, type: "city", coordinates: [19.5136, 42.0683], preferredStationId: "shkoder", aliases: ["shkoder", "shkodra"], municipality: { sq: "Shkodër", en: "Shkodër" } },
+  { id: "vlore-place", name: { sq: "Vlorë", en: "Vlorë" }, type: "city", coordinates: [19.4895, 40.4667], preferredStationId: "vlore", aliases: ["vlora", "vlore center"], municipality: { sq: "Vlorë", en: "Vlorë" } }
+];
